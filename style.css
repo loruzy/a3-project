@@ -60,7 +60,7 @@ button.white {
     outline: none;
     border: 1px solid #fff;
     cursor: pointer;
-    transition: 0.2 ease;
+    transition: 0.2s ease;
 }
 
 .section-p1 {
@@ -951,17 +951,17 @@ footer a:hover {
     justify-content: space-between;
 }
 
-#cuopon {
+#coupon {
     width: 50%;
     margin-bottom: 30px;
 }
 
-#cuopon h3,
+#coupon h3,
 #subtotal h3 {
     padding-bottom: 15px;
 }
 
-#cuopon input {
+#coupon input {
     padding: 10px 20px;
     outline: none;
     width: 60%;
@@ -969,7 +969,7 @@ footer a:hover {
     border: 1px solid #e2e9e1;
 }
 
-#cuopon button,
+#coupon button,
 #subtotal button {
     background: #3b3345;
     color: #fff;
@@ -1199,14 +1199,14 @@ footer a:hover {
     #cart-add {
         flex-direction: column;
     }
-    #cuopon,
+    #coupon,
     #subtotal {
         width: 100%;
     }
     #subtotal {
         padding: 20px;
     }
-    /* SIngle Product */
+    /* Single Product */
     #prodetails {
         flex-direction: column;
     }
